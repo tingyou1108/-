@@ -6,3 +6,41 @@ Project Features
 ✓ State Synchronization
 ✓ Turn-Based Game Control
 ✓ Win/Lose Detection
+Challenge:
+Player states became inconsistent
+when network messages arrived unexpectedly.
+
+Solution:
+Designed a state-machine-based
+turn control mechanism to synchronize
+both clients.
+
+Player 1
+   |
+ TCP
+   |
+Server
+├─ Connection Manager
+├─ Game State Manager
+└─ Result Dispatcher
+   |
+ TCP
+   |
+Player 2
+
+Project Statistics
+
+Development Time:
+3 weeks
+
+Language:
+C++
+
+Source Files:
+3
+
+Lines of Code:
+850+
+
+Network Protocol:
+TCP
