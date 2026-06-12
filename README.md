@@ -31,7 +31,7 @@ Player 2
 Project Statistics
 
 Development Time:
-3 weeks
+10weeks
 
 Language:
 C++
@@ -40,7 +40,7 @@ Source Files:
 3
 
 Lines of Code:
-850+
+100+
 
 Network Protocol:
 TCP
